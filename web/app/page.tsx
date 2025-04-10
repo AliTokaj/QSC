@@ -30,30 +30,32 @@ export default function Home() {
 
   return (
     <div>
-      {/* Video Background and Hero Section */}
-      <div className="relative h-screen flex items-center justify-center overflow-hidden">
-        <video
-          autoPlay
-          loop
-          muted
-          className="absolute z-0 w-auto min-w-full min-h-full max-w-none"
-        >
-          <source src="/welcome.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+     {/* Video Background and Hero Section */}
+<div className="relative h-screen flex items-center justify-center overflow-hidden">
+  <video
+    autoPlay
+    loop
+    muted
+    playsInline // Important for iOS
+    className="absolute z-0 w-auto min-w-full min-h-full max-w-none object-cover"
+  >
+    <source src="/welcome.mp4" type="video/mp4" />
+    <source src="/welcome.webm" type="video/webm" /> {/* Fallback format */}
+    Your browser does not support the video tag.
+  </video>
 
-        {/* Hero Section */}
-        <div className="relative z-10 text-center px-4">
-          <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold text-white">
-            <span className="text-[#F9D00F]">Q</span>uality{' '}
-            <span className="text-[#F9D00F]">S</span>ervers{' '}
-            <span className="text-[#F9D00F]">C</span>leanliness
-          </h1>
-          <p className="mt-6 text-lg sm:text-xl md:text-2xl text-white max-w-2xl mx-auto">
-            <span className="text-[#F9D00F]">W</span>e are dedicated to providing the best service with a focus on quality, reliability, and care.
-          </p>
-        </div>
-      </div>
+  {/* Hero Section */}
+  <div className="relative z-10 text-center px-4">
+    <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold text-white">
+      <span className="text-[#F9D00F]">Q</span>uality{' '}
+      <span className="text-[#F9D00F]">S</span>ervers{' '}
+      <span className="text-[#F9D00F]">C</span>leanliness
+    </h1>
+    <p className="mt-6 text-lg sm:text-xl md:text-2xl text-white max-w-2xl mx-auto">
+      <span className="text-[#F9D00F]">W</span>e are dedicated to providing the best service with a focus on quality, reliability, and care.
+    </p>
+  </div>
+</div>
 
       {/* Our Story Section */}
       <section className="mt-50">
