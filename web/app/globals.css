@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #000000; /* Ensures black text for better contrast */
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Playfair Display', serif; /* Apply Playfair Display as the default font */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove dark mode overrides */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff; /* Force white background */
+    --foreground: #000000; /* Keep text black */
+  }
+}
+
+/* Responsive Design Adjustments */
+
+/* Default styles for all screen sizes */
+.container-custom {
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
