@@ -32,7 +32,7 @@ const ValuesSection = () => {
             Det som gör oss till <span className="text-[#F0AE2C]">QSC</span>
           </h2>
           <p className="text-gray-700 text-base sm:text-lg max-w-2xl mx-auto">
-            Våra värderingar genomsyrar allt vi gör och hjälper oss att skapa den bästa upplevelsen för våra gäster och medarbetare.
+            Våra värderingar är mer än ord  de är vägledande principer som  allt vi gör
           </p>
         </div>
 
@@ -50,7 +50,7 @@ const ValuesSection = () => {
             </div>
             <h3 className="text-xl font-bold mb-3">Kvalitet i varje detalj</h3>
             <p className="text-gray-700 text-base sm:text-lg">
-              Vi strävar alltid efter att leverera högsta kvalitet i allt från råvaror till service, och vi kompromissar aldrig.
+            Vi strävar alltid efter att leverera den högsta kvaliteten.
             </p>
           </motion.div>
 
@@ -67,7 +67,7 @@ const ValuesSection = () => {
             </div>
             <h3 className="text-xl font-bold mb-3">Människor i centrum</h3>
             <p className="text-gray-700 text-base sm:text-lg">
-              Våra medarbetare och gäster är vår främsta prioritet. Vi tror på att skapa en miljö där alla känner sig välkomna.
+             Våra medarbetare och gäster är vår största tillgång. Vi skapar en inkluderande, trygg och trivsam miljö där alla känner sig sedda och uppskattade.
             </p>
           </motion.div>
 
@@ -84,8 +84,7 @@ const ValuesSection = () => {
             </div>
             <h3 className="text-xl font-bold mb-3">Samhällsengagemang</h3>
             <p className="text-gray-700 text-base sm:text-lg">
-              Vi tar aktivt ansvar för vårt samhälle och miljön genom hållbara val och engagemang i lokala initiativ.
-            </p>
+Genom lokala initiativ och hållbara val vill vi göra skillnad där vi verkar.            </p>
           </motion.div>
         </div>
       </div>

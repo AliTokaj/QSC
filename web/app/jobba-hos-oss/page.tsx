@@ -36,7 +36,7 @@ const JobbHosOss = () => {
             Jobba hos <span className="text-yellow-400">oss</span>
           </h1>
           <h2 className="text-xl md:text-2xl font-medium text-gray-700">
-            Bli en del av vårt team och väx med oss!
+          Är du vår nästa stjärna?
           </h2>
           <motion.div 
             className="mt-4 text-5xl font-bold text-[#F9D00F] relative"
@@ -64,7 +64,7 @@ const JobbHosOss = () => {
             Därför ska du jobba hos oss
           </h2>
           <p className="text-gray-700 text-base sm:text-lg">
-            Vi erbjuder mer än bara ett jobb – vi erbjuder en karriär med möjligheter att växa och utvecklas.
+          Vi erbjuder mer än ett jobb – vi erbjuder en framtid att växa i.
           </p>
         </div>
         
@@ -75,8 +75,7 @@ const JobbHosOss = () => {
             </div>
             <h3 className="text-xl font-bold mb-3">Karriärsutveckling</h3>
             <p className="text-gray-700 text-base sm:text-lg">
-              Vi investerar i våra medarbetares tillväxt med utbildning och mentorskap för att hjälpa dig nå dina karriärmål.
-            </p>
+            Vi satsar på din utveckling! Genom internutbildningar, mentorskap och tydliga karriärvägar hjälper vi dig att nå dina mål  oavsett om du är ny i yrkeslivet eller vill ta nästa steg.            </p>
           </div>
           
           <div className="bg-[#FBF7F7] p-8 rounded-lg text-center hover:shadow-md transition-all">
@@ -85,8 +84,7 @@ const JobbHosOss = () => {
             </div>
             <h3 className="text-xl font-bold mb-3">Inkluderande miljö</h3>
             <p className="text-gray-700 text-base sm:text-lg">
-              Vi värdesätter mångfald och strävar efter att skapa en arbetsplats där alla känner sig välkomna och uppskattade.
-            </p>
+            Mångfald är en styrka. Vi strävar efter att skapa en trygg och välkomnande arbetsplats där varje individ får vara sig själv och bli uppskattad för sin unika kompetens.            </p>
           </div>
           
           <div className="bg-[#FBF7F7] p-8 rounded-lg text-center hover:shadow-md transition-all">
@@ -95,8 +93,7 @@ const JobbHosOss = () => {
             </div>
             <h3 className="text-xl font-bold mb-3">Förmåner & balans</h3>
             <p className="text-gray-700 text-base sm:text-lg">
-              Vi erbjuder konkurrenskraftiga förmåner och uppmuntrar en hälsosam balans mellan arbete och privatliv.
-            </p>
+            Vi erbjuder konkurrenskraftiga förmåner och värnar om din livsbalans. För oss är det viktigt att du mår bra både på och utanför jobbet.            </p>
           </div>
         </div>
         <div className="mt-8 text-center">
@@ -123,44 +120,41 @@ const JobbHosOss = () => {
             <div>
               <div className="text-center mb-16">
                 <h2 className="text-3xl md:text-4xl font-display font-bold mb-4">
-                 Cuatro hörnstenarna
-                i vår verksamhet
+                <span className="text-[#F92727]">Grunden </span> i allt vi gör
                 </h2>
                 <p className="text-gray-700 text-base sm:text-lg">
-                Vår verksamhet vilar på fyra grundläggande pelare som guidar oss i allt vi gör. Dessa hörnstenar är inte bara principer – de är vår kompass och vår kraftkälla för att skapa värde och utveckling.
-                </p>
+                Vår verksamhet vilar på fyra tydliga principer som genomsyrar varje beslut, varje gästupplevelse och varje arbetsdag. De är vår kompass, vår kultur och vårt löfte.                </p>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-4xl mx-auto text-center">
                 <div>
                   <div className="w-16 h-16 bg-[#F92727] text-white rounded-full flex items-center justify-center mx-auto mb-6 text-xl font-bold">
                     1
                   </div>
-                  <h3 className="text-lg font-bold mb-3">Kvalitet som standard</h3>
-                  <p className="text-gray-700 text-base sm:text-lg">Vi sätter alltid högsta möjliga måttstock och strävar efter att överträffa förväntningar.</p>
+            
+                  <p className="text-gray-700 text-base sm:text-lg">Vi kompromissar aldrig med kvalitet. Från råvaror till bemötande och miljö – vi strävar alltid efter att överträffa förväntningar..</p>
                 </div>
                 
                 <div>
                   <div className="w-16 h-16 bg-[#F92727] text-white rounded-full flex items-center justify-center mx-auto mb-6 text-xl font-bold">
                     2
                   </div>
-                  <h3 className="text-lg font-bold mb-3">Engagemang med hjärta</h3>
-                  <p className="text-gray-700 text-base sm:text-lg">Varje medarbetare och partner bidrar med passion och engagemang, vilket gör skillnad på riktigt.</p>
+                  
+                  <p className="text-gray-700 text-base sm:text-lg">Våra medarbetares engagemang är vår största styrka. Hos oss arbetar människor med hjärta, vilket märks i allt från service till samarbete.</p>
                 </div>
                 
                 <div>
                   <div className="w-16 h-16 bg-[#F92727] text-white rounded-full flex items-center justify-center mx-auto mb-6 text-xl font-bold">
                     3
                   </div>
-                  <h3 className="text-lg font-bold mb-3">Innovation som drivkraft</h3>
-                  <p className="text-gray-700 text-base sm:text-lg"> Vi omfamnar förändring och ser möjligheter där andra ser hinder.</p>
+                
+                  <p className="text-gray-700 text-base sm:text-lg"> Vi välkomnar förändring. Med öppna ögon och nyfikenhet ser vi möjligheter där andra ser hinder – och driver branschen framåt.</p>
                 </div>
                 
                 <div>
                   <div className="w-16 h-16 bg-[#F92727] text-white rounded-full flex items-center justify-center mx-auto mb-6 text-xl font-bold">
                     4
                   </div>
-                  <h3 className="text-lg font-bold mb-3">Ansvar för framtiden</h3>
-                  <p className="text-gray-700 text-base sm:text-lg">Vi tar vårt samhällsansvar på största allvar och arbetar för en hållbar utveckling.</p>
+                  <p className="text-gray-700 text-base sm:text-lg">Vi tar ansvar – för våra medarbetare, för miljön och för det samhälle vi verkar i. Hållbarhet är en självklar del av vår tillväxt.</p>
                 </div>
               </div>
             </div>
@@ -193,8 +187,10 @@ const JobbHosOss = () => {
             <div className="bg-white p-8 rounded-lg border border-gray-100 hover:shadow-md transition-all">
               <div className="flex flex-col md:flex-row md:justify-between md:items-center">
                 <div>
-                  <h3 className="text-xl font-bold mb-2"></h3>
-                  <p className="text-gray-700 text-base sm:text-lg"></p>
+                  <h3 className="text-xl font-bold mb-2 text-[#f9d00f] ">Hur söker jag jobb hos er?</h3>
+                  <p className="text-gray-700 text-base sm:text-lg"> På  <a href='https://www.mcdonalds.com/se/sv-se/jobb/sok-jobb.html' target="_blank"
+            rel="noopener noreferrer"
+                className=" hover:text-[#f9d00f]"> länken</a> ,kan du söka våra annonserade tjänster och ladda upp ditt CV och personliga brev. <br/>Lycka till!</p>
                 </div>
               
               </div>
@@ -203,8 +199,10 @@ const JobbHosOss = () => {
             <div className="bg-white p-8 rounded-lg border border-gray-100 hover:shadow-md transition-all">
               <div className="flex flex-col md:flex-row md:justify-between md:items-center">
                 <div>
-                  <h3 className="text-xl font-bold mb-2"></h3>
-                  <p className="text-gray-700 text-base sm:text-lg"></p>
+                  <h3 className="text-xl font-bold mb-2 text-[#f9d00f]">Vad får man för lön hos er?</h3>
+                  <p className="text-gray-700 text-base sm:text-lg">Hos oss på McDonald’s, via QSC Restauranger AB, följer vi gällande kollektivavtal, vilket innebär att din lön sätts utifrån tydliga kriterier som ålder och erfarenhet i branschen. Men det stannar inte där.
+
+Vi tror på att belöna ansvar och ambition. Därför har du möjlighet till löneutveckling kopplad till din roll och ditt ansvar i restaurangen. Ju mer du växer i din roll, desto mer kan du påverka din lön.</p>
                 </div>
                 
               </div>
@@ -213,8 +211,9 @@ const JobbHosOss = () => {
             <div className="bg-white p-8 rounded-lg border border-gray-100 hover:shadow-md transition-all">
               <div className="flex flex-col md:flex-row md:justify-between md:items-center">
                 <div>
-                  <h3 className="text-xl font-bold mb-2"></h3>
-                  <p className="text-gray-700 text-base sm:text-lg"></p>
+                  <h3 className="text-xl font-bold mb-2 text-[#f9d00f]">Måste jag ha tidigare erfarenhet för att jobba på McDonald’s?</h3>
+                  <p className="text-gray-700 text-base sm:text-lg">Nej, det behöver du inte!<br/>
+Vi utbildar dig från grunden. Många av våra medarbetare börjar sitt allra första jobb hos oss. Du får en tydlig introduktion, bra handledning och möjlighet att växa i din egen takt. </p>
                 </div>
                
               </div>

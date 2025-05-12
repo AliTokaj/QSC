@@ -14,7 +14,7 @@ const Page = () => {
               Om <span className="text-yellow-400">QSC</span>
             </h1>
             <h2 className="text-xl md:text-2xl font-medium text-gray-700">
-              Lär känna vår historia, våra värderingar och varför vi är mer än bara en kedja.
+              Mer än bara en kedja – ett bolag med hjärta, ansvar och driv
             </h2>
           </div>
         </div>
@@ -37,16 +37,14 @@ const Page = () => {
 
             <div>
               <span className="bg-[#FFFDD0] text-black px-4 py-1 rounded-full text-sm font-semibold uppercase tracking-wide">
-                Vår historia
+                Team
               </span>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-display font-bold mb-4 mt-4">
-                En resa som <span className="text-[#F0AE2C]">började 2002</span>
+                Outstanding restaurang <span className="text-[#F0AE2C]">2024</span>
               </h2>
               <p className="text-gray-700 text-base sm:text-lg mt-4 mb-6">
-                QSC grundades med en vision om att servera god mat med kvalitet till rimliga priser. Från vår första restaurang har vi vuxit till en älskad del av det svenska samhället, där människor samlas för att njuta av våra måltider.
               </p>
               <p className="text-gray-700 text-base sm:text-lg mt-4 mb-6">
-                Genom åren har vi utvecklats och förändrats, men vårt fokus på kvalitet och service har aldrig sviktat. Idag är vi en av Sveriges mest välkända restaurangkedjor med restauranger över hela landet.
               </p>
             </div>
           </div>

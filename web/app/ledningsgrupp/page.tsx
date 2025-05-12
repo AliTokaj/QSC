@@ -71,7 +71,7 @@ const page = () => {
               Vår <span className="text-yellow-400">ledningsgrupp</span>
             </h1>
             <h2 className="text-xl md:text-2xl font-medium text-gray-700">
-              Möt teamet som driver QSC framåt – en samling passionerade och erfarna personer som arbetar för att ge dig en enastående matupplevelse.
+              Bakom varje välfungerande restaurang står ett starkt team
             </h2>
           </div>
         </div>
@@ -132,11 +132,8 @@ const page = () => {
                 På QSC tror vi på kraften i samarbete och innovation. Vår ledningsgrupp består av experter inom sina respektive områden, men vi arbetar alltid som ett team.
               </p>
               <p className="text-gray-700 text-base sm:text-lg mb-4">
-                Vi uppmuntrar kreativitet och nya idéer, samtidigt som vi värnar om våra traditioner och vår historia. Tillsammans skapar vi en restaurangupplevelse som är både nyskapande och genuint förankrad.
-              </p>
-              <p className="text-gray-700 text-base sm:text-lg">
-                Vårt mål är att varje gäst ska känna sig välkommen och omhändertagen, och att varje anställd ska känna stolthet över att vara en del av QSC-familjen.
-              </p>
+Vi uppmuntrar kreativitet, idéer och personligt ansvar, samtidigt som vi alltid håller fast vid våra kärnvärden  kvalitet, service och Renlighet. Tillsammans skapar vi restaurangupplevelser som känns  för gästen och medarbetaren.              </p>
+             
             </div>
             <div className="bg-[#F9D00F]/20 p-8 rounded-lg">
               <div className="flex items-center gap-4 mb-6">
@@ -146,11 +143,8 @@ const page = () => {
                 <h3 className="text-xl font-bold">Tillsammans gör vi skillnad</h3>
               </div>
               <p className="text-gray-700 text-base sm:text-lg mb-6">
-                Vår ledningsgrupp kombinerar expertis från olika områden inom restaurangbranschen. Denna mångfald av erfarenheter och perspektiv gör att vi kan erbjuda en unik matupplevelse.
-              </p>
-              <p className="text-gray-700 text-base sm:text-lg">
-                Vi arbetar kontinuerligt med att utveckla både vår meny och vår service för att överträffa våra gästers förväntningar. Vårt engagemang för hållbarhet och kvalitet genomsyrar allt vi gör.
-              </p>
+Vår styrka ligger i mångfalden  av människor, perspektiv och erfarenheter. Genom att kombinera expertis från olika delar av restaurangvärlden skapar vi en unik helhet. Vi utvecklar vår service och vår arbetsmiljö för att överträffa förväntningar.              </p>
+           
             </div>
           </div>
         </div>

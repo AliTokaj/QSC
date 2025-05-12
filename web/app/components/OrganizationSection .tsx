@@ -58,9 +58,10 @@ const organizationData = {
 };
 
 const locations = [
-  ["STOCKHOLM", "GÖTEBORG", "ÖREBRO", "HELSINGBORG", "UMEÅ"],
-  ["UPPSALA", "MALMÖ", "LINKÖPING", "JÖNKÖPING", "LULEÅ"],
-  ["VÄSTERÅS", "LUND", "NORRKÖPING", "VÄXJÖ", "SUNDSVALL"],
+  ["Gränby", "Vaksalagatan", "Fyrislund", "Västhaga", "Södermalmsplan","Märsta"],
+  ["Hälla", "Marieberg", "Stenby", "Skrapan", "Landsvägsallén","Bollnäs"],
+  ["Birsta", "Bydalen", "Erikslund", "Östersund", "Härnösand", "Härnösand"],
+  
 ];
 
 const OrgChart = ({ data }: { data: any }) => {
@@ -105,8 +106,7 @@ const OrganizationSection = () => {
       <div className="max-w-5xl mx-auto text-center">
         <h1 className="text-3xl md:text-4xl font-display font-bold ">Organisationsträd</h1>
         <p className="text-gray-700 text-base sm:text-lg  mt-2">
-          Vårt teams struktur är utformat för att ge den bästa servicen till
-          våra kunder och skapa en effektiv arbetsmiljö för alla medarbetare.
+          Vår organisation är uppbyggd för att möta både medarbetarnas och gästernas behov tydligt, effektivt och med framtiden i fokus.
         </p>
       </div>
 
