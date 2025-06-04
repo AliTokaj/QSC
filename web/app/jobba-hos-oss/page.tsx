@@ -12,8 +12,8 @@ const JobbHosOss = () => {
 
   useEffect(() => {
     let start = 0;
-    const end = 999;
-    const duration = 2000; // 1 seconds
+    const end = 2000;
+    const duration = 2000; // 
     const intervalTime = duration / end;
 
     const counter = setInterval(() => {

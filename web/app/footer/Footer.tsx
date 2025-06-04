@@ -80,7 +80,7 @@ const Footer = () => {
               </li>
               <li className="text-white/70">
                 <span className="block font-medium">Antal anställda</span>
-                1000+
+                2000+
               </li>
             </ul>
           </div>

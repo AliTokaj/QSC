@@ -2,10 +2,10 @@
 import React from "react";
 
 const stats = [
-  { value: "22+", label: "Restauranger" },
-  { value: "1000+", label: "Medarbetare" },
+  { value: "30+", label: "Restauranger" },
+  { value: "2000+", label: "Medarbetare" },
   { value: "2", label: "Länder" },
-  { value: "20 år", label: "Av erfarenhet" },
+  { value: "40 år", label: "Av erfarenhet" },
 ];
 
 const StatsSection = () => {

@@ -18,7 +18,8 @@ export default function Home() {
     "Owner/Operator": [
       {
         name: "Claes Göran Jönsson",
-        description: "Visionär ledare med hjärtat i restauranggolvet.Claes har över 30 års erfarenhet inom McDonald’s och driver QSC:s restauranger med fokus på kvalitet, medarbetarutveckling och lokal förankring. ",
+        description:
+          "Visionär ledare med hjärtat i restauranggolvet.Claes har över 30 års erfarenhet inom McDonald’s och driver QSC:s restauranger med fokus på kvalitet, medarbetarutveckling och lokal förankring. ",
 
         role: "Owner",
       },
@@ -52,7 +53,8 @@ export default function Home() {
     "Operations Director": [
       {
         name: "Operations Director 1",
-        description: "Visionär ledare med hjärtat i restauranggolvet.Claes har över 20 års erfarenhet inom McDonald’s och driver QSC:s restauranger med fokus på kvalitet, medarbetarutveckling och lokal förankring. ",
+        description:
+          "Visionär ledare med hjärtat i restauranggolvet.Claes har över 20 års erfarenhet inom McDonald’s och driver QSC:s restauranger med fokus på kvalitet, medarbetarutveckling och lokal förankring. ",
         role: "Operations Director",
       },
       {
@@ -202,8 +204,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Upptäcka Oss Section */}
+      {/* 
+      
+      
       <section className="mt-50">
         <div className="py-20 px-4 sm:px-6 bg-[#FBF7F7] text-center">
           <div className="max-w-7xl mx-auto">
@@ -220,7 +223,7 @@ export default function Home() {
               drift till utveckling.
             </p>
 
-            {/* Category Tabs */}
+           
             <div className="flex flex-wrap justify-center gap-4 mt-6">
               {categories.map((category) => (
                 <button
@@ -237,7 +240,7 @@ export default function Home() {
               ))}
             </div>
 
-            {/* Items with Motion Hover */}
+           
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8">
               {items[selectedCategory].map((item, index) => (
                 <div
@@ -255,6 +258,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+      
+      */}
 
       {/* Våra kulinariska skapelser Section */}
       <section className="mt-50">
@@ -264,12 +269,10 @@ export default function Home() {
               Visuell resa
             </span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mt-4">
-            Ögonblick som dröje <span className="text-[#f9d00f]">kvar </span>
+              Ögonblick som dröje <span className="text-[#f9d00f]">kvar </span>
             </h2>
             <p className="text-gray-700 text-base sm:text-lg mt-4">
-            Varje detalj är designad med både smak och estetik i fokus.
-
-
+              Varje detalj är designad med både smak och estetik i fokus.
             </p>
           </div>
 

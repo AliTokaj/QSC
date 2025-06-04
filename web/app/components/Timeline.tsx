@@ -4,29 +4,34 @@ import { Clock } from "lucide-react";
 
 const milestones = [
   {
-    year: "1990",
-    title: "Den första restaurangen",
-    description: "Vår första restaurang öppnades i Stockholm och blev snabbt en favorit bland lokalbefolkningen.",
+    year: "1979 ",
+    title: "Allt började på Askersundsgrillen",
+    description: "Claes köpte Askersundgrillen som 19-åring och sålde sin första hamburgare.",
   },
   {
-    year: "2002",
-    title: "Expansion till hela Sverige",
-    description: "Vi började expandera till fler städer och etablerade oss som en nationell kedja med restauranger över hela landet.",
+    year: "1984 ",
+    title: "Claes såg McDonalds som ett spännande varumärke och fick jobb på McDonald's i Örebro",
+    description: "Kyckling, fisk och paj var den första stationen han jobbade på",
   },
   {
-    year: "2005",
-    title: "Internationell etablering",
-    description: "Vi tog steget utanför Sveriges gränser och öppnade våra första restauranger i grannländerna.",
+    year: "1993",
+    title: "Claes blev godkänd franchisetagare och drev Vasagatan",
+    description: "Skrapan och Hälla i Västerås genom ett partnerskapsbolag tillsammans med Svenska McDonald's.",
   },
   {
-    year: "2010",
-    title: "Hållbarhetsinitiativ",
-    description: "Vi lanserade vårt omfattande hållbarhetsprogram med fokus på miljövänliga val och samhällsansvar.",
+    year: "2002 ",
+    title: "QSC Restauranger AB",
+    description: "Claes tog över Hälla och Stenby till 100% och stod helt på egna ben och QSC Restauranger AB bildades.",
   },
   {
-    year: "2023",
-    title: "Framtiden är här",
-    description: "Vi firade vår framgångsresa med över 500 restauranger globalt och fortsätter att utvecklas för att möta framtidens behov.",
+    year: "2016 ",
+    title: "Norge ",
+    description: "Blev godkänd franchisetagare i Norge och blev därmed den andra franchisetagaren i Europa med restauranger i två länder.",
+  },
+  {
+    year: "2025  ",
+    title: "2000 anställda och driver 30 restauranger ",
+    description: "QSC koncernen har nu ca 2000 anställda och driver 30 restauranger och fler öppningar är planerade.",
   },
 ];
 
